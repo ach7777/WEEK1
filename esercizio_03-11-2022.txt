@@ -1,0 +1,55 @@
+#include <studio.h>
+int main(){
+	int opzione;
+	int risposta;
+	int punteggio = 0;
+	int ultima_opzione;
+	
+printf("Benvenuto in questo nuovo gioco,\ninserisci 1 per iniziare, inserisci 0 per uscire\n");
+	scanf("%d",&opzione);
+	while(opzione>1){
+		printf("opzione errata, inserire o 1 o 0\n");
+	scanf("%d",opzione);
+}
+do{
+if(opzione == 0){
+	exit;}
+if(opzione == 1){
+	printf("inizia il gioco,\nti sarano fatte delle domande e tu dovrai rispondere correttamente per poter raggiungere un buon punteggio");
+	printf("Domanda 1: Capitale Francia?\n 1-Roma \n 2-Parigi \n 3-Casablanca\n");
+	scanf("%d", &risposta);
+	if (risposta==2){
+		printf("Bravo, corretto");
+		punteggio=punteggio+1;
+	}
+	else{
+	print("errato\n");
+	printf("Domanda 2: Qual è la stella del nostro sistema solare?\n 1-Sole\n 2-Marte\n 3-Giove\n")
+	scanf("%d", &risposta);
+	if (risposta==1){
+		print("Continua così!")
+		punteggio=punteggio+1;
+	}
+	else{
+	printf("errato\n");
+	printf("Domanda 3: La squadra piu forte del mondo?\n 1-Roma\n 2-Real Madrid\n 3-Inter\n")
+	scanf("%d", &risposta);
+	if (risposta==3){
+		print("Palese")
+		punteggio=punteggio+1
+	}
+	else{
+	printf("sbagliato, male male")
+	}
+printf("punti totalizzati = %d\n", punteggio);
+print("Nuova partita? Premi 1 per giocare di nuovo, 0 per uscire");
+scanf("%d", opzione_finale)	
+while(opzione_finale>1){
+	printf("opzione errata, inserire 1 per giocare di nuovo, 0 per uscire");
+	scanf("%d", opzione_finale)
+}
+while(opzione_finale == 1);
+}
+		
+
+		
